@@ -1,19 +1,10 @@
 package main
 
 import "fmt"
+import "math"
 
 func main() {
 
-	a := "."
-	//b := "+"
-	c := "+++.+."
-
-	for i := 0; i < len(c); i++ {
-
-		if string(c[i]) == a {
-			fmt.Println("success!")
-		}
-
-	}
-
+	a := math.Pow(10, 2)
+	fmt.Println(a)
 }
